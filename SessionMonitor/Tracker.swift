@@ -10,7 +10,7 @@ import Foundation
 
 final class Tracker: SessionTracking {
     func startSession() {
-        print("Session active")
+        print("Session is active!")
     }
 
     func stopCurrentSession() {

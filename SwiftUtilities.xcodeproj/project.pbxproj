@@ -130,10 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				FA306C5F242F59690009BD25 /* SessionMonitor */,
-				FA306C90242F68E60009BD25 /* DeepLinking */,
-				FA306CBA242F69640009BD25 /* DeepLinkingTrigger */,
 				FA306C76242F596A0009BD25 /* SessionMonitorTests */,
+				FA306C90242F68E60009BD25 /* DeepLinking */,
 				FA31CF23242F7A7000510E7F /* DeepLinkingTests */,
+				FA306CBA242F69640009BD25 /* DeepLinkingTrigger */,
 				FA306C44242F59100009BD25 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -153,7 +153,8 @@
 		FA306C5F242F59690009BD25 /* SessionMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				FA306C87242F5D220009BD25 /* Tracker */,
+				FA306C80242F59800009BD25 /* Tracker.swift */,
+				FA306C81242F59800009BD25 /* SessionMonitor.swift */,
 				FA306C64242F59690009BD25 /* ViewController.swift */,
 				FA306C88242F5D3A0009BD25 /* Supporting files */,
 			);
@@ -176,15 +177,6 @@
 				FA306C84242F5BEC0009BD25 /* TrackerMock.swift */,
 			);
 			path = Mocks;
-			sourceTree = "<group>";
-		};
-		FA306C87242F5D220009BD25 /* Tracker */ = {
-			isa = PBXGroup;
-			children = (
-				FA306C81242F59800009BD25 /* SessionMonitor.swift */,
-				FA306C80242F59800009BD25 /* Tracker.swift */,
-			);
-			path = Tracker;
 			sourceTree = "<group>";
 		};
 		FA306C88242F5D3A0009BD25 /* Supporting files */ = {
