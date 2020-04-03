@@ -31,6 +31,14 @@
 		FA306CC8242F69650009BD25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA306CC6242F69650009BD25 /* LaunchScreen.storyboard */; };
 		FA306CCF242F6B2F0009BD25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA306CCE242F6B2F0009BD25 /* Main.storyboard */; };
 		FA31CF25242F7A7000510E7F /* RouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31CF24242F7A7000510E7F /* RouteTests.swift */; };
+		FA6B9ACC243726A6000EDF4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B9ACB243726A6000EDF4C /* AppDelegate.swift */; };
+		FA6B9ACE243726A6000EDF4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B9ACD243726A6000EDF4C /* SceneDelegate.swift */; };
+		FA6B9AD0243726A6000EDF4C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B9ACF243726A6000EDF4C /* MainViewController.swift */; };
+		FA6B9AD3243726A6000EDF4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6B9AD1243726A6000EDF4C /* Main.storyboard */; };
+		FA6B9AD5243726A7000EDF4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6B9AD4243726A7000EDF4C /* Assets.xcassets */; };
+		FA6B9AD8243726A7000EDF4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6B9AD6243726A7000EDF4C /* LaunchScreen.storyboard */; };
+		FA6B9ADE243726D9000EDF4C /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B9ADD243726D9000EDF4C /* MainModel.swift */; };
+		FA6B9AE2243726FB000EDF4C /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B9AE1243726FB000EDF4C /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +93,16 @@
 		FA31CF22242F7A7000510E7F /* DeepLinkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepLinkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA31CF24242F7A7000510E7F /* RouteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTests.swift; sourceTree = "<group>"; };
 		FA31CF26242F7A7000510E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6B9AC9243726A6000EDF4C /* ThinReactiveLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinReactiveLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6B9ACB243726A6000EDF4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA6B9ACD243726A6000EDF4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA6B9ACF243726A6000EDF4C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FA6B9AD2243726A6000EDF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA6B9AD4243726A7000EDF4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA6B9AD7243726A7000EDF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA6B9AD9243726A7000EDF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6B9ADD243726D9000EDF4C /* MainModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		FA6B9AE1243726FB000EDF4C /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +141,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA6B9AC6243726A6000EDF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -134,6 +159,7 @@
 				FA306C90242F68E60009BD25 /* DeepLinking */,
 				FA31CF23242F7A7000510E7F /* DeepLinkingTests */,
 				FA306CBA242F69640009BD25 /* DeepLinkingTrigger */,
+				FA6B9ACA243726A6000EDF4C /* ThinReactiveLayer */,
 				FA306C44242F59100009BD25 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -146,6 +172,7 @@
 				FA306C8F242F68E60009BD25 /* DeepLinking.app */,
 				FA306CB9242F69640009BD25 /* DeepLinkingTrigger.app */,
 				FA31CF22242F7A7000510E7F /* DeepLinkingTests.xctest */,
+				FA6B9AC9243726A6000EDF4C /* ThinReactiveLayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,6 +273,38 @@
 			path = DeepLinkingTests;
 			sourceTree = "<group>";
 		};
+		FA6B9ACA243726A6000EDF4C /* ThinReactiveLayer */ = {
+			isa = PBXGroup;
+			children = (
+				FA6B9ADD243726D9000EDF4C /* MainModel.swift */,
+				FA6B9ACF243726A6000EDF4C /* MainViewController.swift */,
+				FA6B9ADF243726E1000EDF4C /* Supporting files */,
+				FA6B9AD9243726A7000EDF4C /* Info.plist */,
+			);
+			path = ThinReactiveLayer;
+			sourceTree = "<group>";
+		};
+		FA6B9ADF243726E1000EDF4C /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				FA6B9ACB243726A6000EDF4C /* AppDelegate.swift */,
+				FA6B9ACD243726A6000EDF4C /* SceneDelegate.swift */,
+				FA6B9AE0243726FB000EDF4C /* Helpers */,
+				FA6B9AD1243726A6000EDF4C /* Main.storyboard */,
+				FA6B9AD4243726A7000EDF4C /* Assets.xcassets */,
+				FA6B9AD6243726A7000EDF4C /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		FA6B9AE0243726FB000EDF4C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FA6B9AE1243726FB000EDF4C /* Observable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -336,6 +395,23 @@
 			productReference = FA31CF22242F7A7000510E7F /* DeepLinkingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FA6B9AC8243726A6000EDF4C /* ThinReactiveLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6B9ADC243726A7000EDF4C /* Build configuration list for PBXNativeTarget "ThinReactiveLayer" */;
+			buildPhases = (
+				FA6B9AC5243726A6000EDF4C /* Sources */,
+				FA6B9AC6243726A6000EDF4C /* Frameworks */,
+				FA6B9AC7243726A6000EDF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinReactiveLayer;
+			productName = ThinReactiveLayer;
+			productReference = FA6B9AC9243726A6000EDF4C /* ThinReactiveLayer.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -363,6 +439,9 @@
 						CreatedOnToolsVersion = 11.4;
 						TestTargetID = FA306C8E242F68E60009BD25;
 					};
+					FA6B9AC8243726A6000EDF4C = {
+						CreatedOnToolsVersion = 11.4;
+					};
 				};
 			};
 			buildConfigurationList = FA306C3E242F59100009BD25 /* Build configuration list for PBXProject "SwiftUtilities" */;
@@ -383,6 +462,7 @@
 				FA306C8E242F68E60009BD25 /* DeepLinking */,
 				FA306CB8242F69640009BD25 /* DeepLinkingTrigger */,
 				FA31CF21242F7A7000510E7F /* DeepLinkingTests */,
+				FA6B9AC8243726A6000EDF4C /* ThinReactiveLayer */,
 			);
 		};
 /* End PBXProject section */
@@ -429,6 +509,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6B9AC7243726A6000EDF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6B9AD8243726A7000EDF4C /* LaunchScreen.storyboard in Resources */,
+				FA6B9AD5243726A7000EDF4C /* Assets.xcassets in Resources */,
+				FA6B9AD3243726A6000EDF4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +575,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA6B9AC5243726A6000EDF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6B9ADE243726D9000EDF4C /* MainModel.swift in Sources */,
+				FA6B9AE2243726FB000EDF4C /* Observable.swift in Sources */,
+				FA6B9AD0243726A6000EDF4C /* MainViewController.swift in Sources */,
+				FA6B9ACC243726A6000EDF4C /* AppDelegate.swift in Sources */,
+				FA6B9ACE243726A6000EDF4C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -537,6 +639,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				FA306CC7242F69650009BD25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FA6B9AD1243726A6000EDF4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6B9AD2243726A6000EDF4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA6B9AD6243726A7000EDF4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6B9AD7243726A7000EDF4C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -850,6 +968,42 @@
 			};
 			name = Release;
 		};
+		FA6B9ADA243726A7000EDF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 733W6R73TS;
+				INFOPLIST_FILE = ThinReactiveLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.udevoffice.ThinReactiveLayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA6B9ADB243726A7000EDF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 733W6R73TS;
+				INFOPLIST_FILE = ThinReactiveLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.udevoffice.ThinReactiveLayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -903,6 +1057,15 @@
 			buildConfigurations = (
 				FA31CF2A242F7A7000510E7F /* Debug */,
 				FA31CF2B242F7A7000510E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6B9ADC243726A7000EDF4C /* Build configuration list for PBXNativeTarget "ThinReactiveLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6B9ADA243726A7000EDF4C /* Debug */,
+				FA6B9ADB243726A7000EDF4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
